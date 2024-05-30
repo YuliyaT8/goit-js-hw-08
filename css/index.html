@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      .gallery {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .gallery-item {
+        margin: 10px;
+      }
+      .gallery-link {
+        text-decoration: none;
+      }
+      .gallery-image {
+        width: 360px;
+        height: 300px;
+      }
+    </style>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css
+"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul class="gallery"></ul>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js
+"></script>
+    <script src="./js/gallery.js" type="module"></script>
+  </body>
+</html>
